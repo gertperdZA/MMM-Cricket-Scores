@@ -11,7 +11,12 @@ Module.register('MMM-Cricket-Scores', {
   getStyles() {
     return ['cricket-scores.css']
   },
-
+   /**
+   * Get module title from config.
+   */
+   getHeader: function () {
+        return this.config.title;
+    },
   /**
    * Pseudo-constructor for our module. Sets the default current page to 0.
    */
