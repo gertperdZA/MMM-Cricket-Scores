@@ -31,6 +31,7 @@ modules: [
         module: 'MMM-Cricket-Scores',
         position: 'lower_third',
         config: {
+              title: 'Cricket scores'
         }
     }
 ]
